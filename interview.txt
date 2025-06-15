@@ -1,0 +1,65 @@
+✅ 1. How have you contributed to building high-traffic, public-facing React applications?
+Answer:
+
+I’ve worked on multiple public-facing applications used by millions of users. I followed scalable React architecture using code-splitting, lazy loading, and dynamic imports. 
+I also implemented virtualization for long lists, React Query for data caching, and CDN delivery for static assets. 
+These techniques significantly improved performance and reduced bounce rates on mobile devices.
+
+✅ 2. Can you describe your experience with Progressive Web Applications (PWA)?
+Answer:
+
+I’ve developed PWAs with features like offline access using service workers, add-to-home-screen prompts, and background sync. 
+I used workbox for service worker customization and ensured fast load performance using Lighthouse metrics. 
+This helped improve engagement and conversion rates for mobile-first users.
+
+✅ 3. How do you ensure responsive design for both mobile and desktop users in React apps?
+Answer:
+
+I use mobile-first responsive layouts with CSS Grid and Flexbox, along with utility libraries like Tailwind CSS or styled-components. 
+For media queries, I prefer CSS-in-JS or global breakpoints. I test UI using browser dev tools and tools like BrowserStack to ensure consistency across devices.
+
+✅ 4. How do you approach application performance optimization in React?
+Answer:
+
+I profile the app with Chrome DevTools and React Profiler to identify bottlenecks. Then I apply React.memo, useCallback, and useMemo for expensive computations and event handlers. 
+I also optimize images, lazy-load components, and debounce user input where needed.
+
+✅ 5. Can you walk through the development lifecycle of a recent project you worked on?
+Answer:
+
+I collaborated from the requirement analysis phase through deployment. 
+I worked with UX designers and business analysts to refine the UI/UX, built components in React, integrated with REST/GraphQL APIs, wrote tests using RTL, 
+and deployed using a CI/CD pipeline on Vercel. Post-launch, I used Sentry for monitoring and iterated based on user feedback.
+
+✅ 6. How do you handle cross-team collaboration, especially with architects and stakeholders?
+Answer:
+
+I participate in architecture and design reviews with senior developers and architects, provide technical input during backlog grooming, and contribute to documentation. 
+I also demo progress during sprint reviews and proactively share performance insights and improvement suggestions.
+
+✅ 7. How do you approach risk analysis and mitigation in development?
+Answer:
+
+I identify technical risks during planning—like performance bottlenecks or integration points—and propose mitigation such as fallback UIs, feature flags, and rollback strategies.
+I also write robust error handling and loading states to prevent UI breakdowns in edge cases.
+
+✅ 8. Describe a time when you proposed an alternative approach that improved the outcome.
+Answer:
+
+In one project, the team planned to use Redux for state management. 
+I suggested using React Query for asynchronous data handling, which simplified code, improved caching, and reduced boilerplate. 
+We adopted it, and it led to a noticeable improvement in developer velocity and app performance.
+
+✅ 9. How do you build maintainable and reusable components in React?
+Answer:
+
+I follow the atomic design pattern, keeping components small and reusable. 
+I use PropTypes or TypeScript for prop validation, isolate side effects in hooks, and write unit tests. 
+Reusable components are stored in a shared library with storybook documentation for consistency.
+
+✅ 10. How do you gather and incorporate user/business requirements into your development?
+Answer:
+
+I participate in discussions with business analysts and stakeholders to understand use cases. 
+I translate user stories into wireframes or prototypes using tools like Figma. 
+This ensures alignment early on, and I keep iterating based on UAT feedback and analytics post-deployment.
